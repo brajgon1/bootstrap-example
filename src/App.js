@@ -18,17 +18,23 @@ function App() {
       <header className="App-header">
         <Container>
           <Form>
-            <Form.Group controlId="formEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
-              <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
-              </Form.Text>
-            </Form.Group>
-            <Form.Group controlId="formPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="password" />
-            </Form.Group>
+            <Row>
+              <Col md>
+                <Form.Group controlId="formEmail">
+                  <Form.Label>Email address</Form.Label>
+                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else.
+                  </Form.Text>
+                </Form.Group>
+              </Col>
+              <Col md>
+                <Form.Group controlId="formPassword">
+                  <Form.Label>Password</Form.Label>
+                  <Form.Control type="password" placeholder="password" />
+                </Form.Group>
+              </Col>
+            </Row>
             <Button variant="secondary" type="submit">
               Login
             </Button>
