@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import React from 'react';
 import "./App.css";
 import {
   Container,
@@ -51,7 +51,7 @@ function App() {
           <Breadcrumb>
             <Breadcrumb.Item>Test</Breadcrumb.Item>
             <Breadcrumb.Item>Test 2</Breadcrumb.Item>
-            <Breadcrumb.Item active>Test 3</Breadcrumb.Item>
+            <Breadcrumb.Item>Test 3</Breadcrumb.Item>
           </Breadcrumb>
           <Alert variant="success">This is a button</Alert>
           <Button>Test</Button>
